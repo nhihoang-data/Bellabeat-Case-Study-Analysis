@@ -128,7 +128,7 @@ LEFT JOIN sleep_stats AS s ON a.Id = s.Id;
 
 ### Phase 5: Share
 
-![Weekend Usage Trend]()
+![Weekend Trend](images/Device_Usage_Heat_Map.png)
 
 Finding 1: The "Weekend Fade" (Inconsistent Engagement)
 
