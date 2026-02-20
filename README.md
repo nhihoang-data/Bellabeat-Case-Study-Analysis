@@ -130,7 +130,7 @@ LEFT JOIN sleep_stats AS s ON a.Id = s.Id;
 
 ![Weekend Trend](images/Device_Usage_Heat_Map.png)
 
-Finding 1: The "Weekend Fade" (Inconsistent Engagement)
+Finding 1: The "Weekend Trend" (Inconsistent Engagement)
 
 - Data analysis shows a significant drop-off in device usage and data logging as the week progresses.
 
@@ -148,6 +148,8 @@ Finding 2: The "15-Hour Wall" (Partial Daily Usage)
 
   https://public.tableau.com/app/profile/nhi.hoang7491/viz/AnalysisofActivityandSleep/Sheet3#1
 
+![Lifestyle User](images/Active_Persona.png)
+
 Finding 3: The "Lifestyle User" vs. "The Athlete"
 
 - The vast majority of users do not fit the "Athlete" profile. Activity data is overwhelmingly dominated by Sedentary and Lightly Active minutes.
@@ -160,7 +162,7 @@ Finding 3: The "Lifestyle User" vs. "The Athlete"
 
 Strategy 1: Incentivize Weekend Consistency
 
-- To bridge the "Weekend Fade," Bellabeat should launch "Weekend Wellness" in-app challenges.
+- To bridge the Weekend Trend, Bellabeat should launch "Weekend Wellness" in-app challenges.
 
 - Action: Push notifications on Friday afternoons should encourage users to set a "Leisure Goal," rewarding them for wearing the device through Sunday. This transforms the device from a "work-week tool" into a "lifestyle accessory."
 
