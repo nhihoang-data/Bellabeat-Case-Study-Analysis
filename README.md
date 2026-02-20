@@ -126,21 +126,53 @@ FROM activity_stats AS a
 LEFT JOIN sleep_stats AS s ON a.Id = s.Id;
 ```
 
-Finding 1: The BMR Floor. Explain why sedentary users had higher calories-per-step.
-
-Finding 2: The Intensity Gap. Explain the lack of correlation between steps and active minutes.
-
-Finding 3: Weekday Trends. Show your weekday line chart.
-
 ### Phase 5: Share
 
-Provide 3 high-level recommendations:
+![Weekend Usage Trend]()
 
-Personalized Notifications: Suggest "Mid-Week Motivation" alerts based on the Tuesday slump you found.
+Finding 1: The "Weekend Fade" (Inconsistent Engagement)
 
-Intensity Coaching: Educate users on "Quality vs. Quantity" of steps.
+- Data analysis shows a significant drop-off in device usage and data logging as the week progresses.
 
-Sleep Hygiene: Target sedentary users with tips on how movement improves sleep latency.
+- Observation: User participation is less likely to use the device on the weekend.
+
+- Insight: The device is currently integrated into weekday "work-life" routines but is frequently abandoned during leisure time, creating a "weekend data gap."
+
+Finding 2: The "15-Hour Wall" (Partial Daily Usage)
+
+- A substantial portion of the user base is not wearing the device 24/7. A high density of users only records between 11 and 15 hours of wear-time per day.
+
+- Observation: Users are removing the device for 9 to 13 hours every day (likely during sleep or evening hours).
+
+- Insight: There is a missed opportunity for holistic health tracking. If users are not wearing the device overnight, Bellabeat cannot provide accurate sleep or recovery insights, which are core pillars of the brand.
+
+  https://public.tableau.com/app/profile/nhi.hoang7491/viz/AnalysisofActivityandSleep/Sheet3#1
+
+Finding 3: The "Lifestyle User" vs. "The Athlete"
+
+- The vast majority of users do not fit the "Athlete" profile. Activity data is overwhelmingly dominated by Sedentary and Lightly Active minutes.
+
+- Observation: "Very Active" minutes (high-intensity exercise) make up the smallest fraction of total recorded time.
+
+- Insight: Our target audience is the Everyday Woman—someone balancing a busy, often sedentary schedule. Their "activity" comes from daily life (commuting, chores, walking) rather than dedicated gym sessions.
 
 ### Phase 6: Act (Recommendations)
+
+Strategy 1: Incentivize Weekend Consistency
+
+- To bridge the "Weekend Fade," Bellabeat should launch "Weekend Wellness" in-app challenges.
+
+- Action: Push notifications on Friday afternoons should encourage users to set a "Leisure Goal," rewarding them for wearing the device through Sunday. This transforms the device from a "work-week tool" into a "lifestyle accessory."
+
+Strategy 2: Focus on "All-Day Comfort" Marketing
+
+- The 11–15 hour wear-time limit suggests users find the device uncomfortable for sleep or home life.
+
+- Action: Marketing campaigns should emphasize the Bellabeat Leaf's versatility (wearing it as a necklace or clip) specifically for evening and sleep comfort. Increasing wear-time to 20+ hours is essential for high-quality data.
+
+Strategy 3: Pivot from "Fitness" to "Wellness"
+
+- Since most users are non-athletes, marketing that focuses on "grind" or "intense workouts" may alienate them.
+
+- Action: Shift the narrative toward Holistic Health. Instead of "Burn More Calories," use messaging like "Move Mindfully." Introduce "Sedentary Nudges" that suggest 2-minute stretching breaks during the workday to help users convert sedentary time into light activity.
 
